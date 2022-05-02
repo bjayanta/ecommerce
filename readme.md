@@ -42,3 +42,14 @@ DATABASES = {
 ## Frontend (Next JS)
 
 ## Android app (Flutter)
+
+## Apps directory
+Create all the app in apps directory.
+
+> mkdir apps
+
+> mkdir apps/core
+
+> python manage.py startapp core apps/core
+
+> python manage.py runserver
